@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: January 4, 2019
+ * Released on: January 10, 2019
  */
 
 (function (global, factory) {
@@ -12166,7 +12166,7 @@
    *
    * Released under the MIT License
    *
-   * Released on: January 4, 2019
+   * Released on: January 10, 2019
    */
 
   var Plugin = {

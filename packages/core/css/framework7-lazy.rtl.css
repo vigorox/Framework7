@@ -7,7 +7,7 @@
  *
  * Released under the MIT License
  *
- * Released on: January 4, 2019
+ * Released on: January 10, 2019
  */
 html {
   direction: rtl;
@@ -118,7 +118,7 @@ p {
   color: #4cd964;
 }
 .ios .color-theme-blue a {
-  color: #007aff;
+  color: #387EF5;
 }
 .ios .color-theme-pink a {
   color: #ff2d55;
@@ -138,6 +138,24 @@ p {
 .ios .color-theme-black a {
   color: #000000;
 }
+.ios .color-theme-lightblue a {
+  color: #45C3F9;
+}
+.ios .color-theme-boulder a {
+  color: #777777;
+}
+.ios .color-theme-emperor a {
+  color: #555555;
+}
+.ios .color-theme-eastbay a {
+  color: #3B5E7C;
+}
+.ios .color-theme-lighteastbay a {
+  color: #4193ca;
+}
+.ios .color-theme-lochmara a {
+  color: #3383cb;
+}
 .ios a.color-red {
   color: #ff3b30;
 }
@@ -145,7 +163,7 @@ p {
   color: #4cd964;
 }
 .ios a.color-blue {
-  color: #007aff;
+  color: #387EF5;
 }
 .ios a.color-pink {
   color: #ff2d55;
@@ -164,6 +182,24 @@ p {
 }
 .ios a.color-black {
   color: #000000;
+}
+.ios a.color-lightblue {
+  color: #45C3F9;
+}
+.ios a.color-boulder {
+  color: #777777;
+}
+.ios a.color-emperor {
+  color: #555555;
+}
+.ios a.color-eastbay {
+  color: #3B5E7C;
+}
+.ios a.color-lighteastbay {
+  color: #4193ca;
+}
+.ios a.color-lochmara {
+  color: #3383cb;
 }
 .md body {
   font-family: Roboto, Noto, Helvetica, Arial, sans-serif;
@@ -207,6 +243,24 @@ p {
 .md .color-theme-black a {
   color: #000000;
 }
+.md .color-theme-lightblue a {
+  color: #45C3F9;
+}
+.md .color-theme-boulder a {
+  color: #777777;
+}
+.md .color-theme-emperor a {
+  color: #555555;
+}
+.md .color-theme-eastbay a {
+  color: #3B5E7C;
+}
+.md .color-theme-lighteastbay a {
+  color: #4193ca;
+}
+.md .color-theme-lochmara a {
+  color: #3383cb;
+}
 .md a.color-red {
   color: #f44336;
 }
@@ -233,6 +287,24 @@ p {
 }
 .md a.color-black {
   color: #000000;
+}
+.md a.color-lightblue {
+  color: #45C3F9;
+}
+.md a.color-boulder {
+  color: #777777;
+}
+.md a.color-emperor {
+  color: #555555;
+}
+.md a.color-eastbay {
+  color: #3B5E7C;
+}
+.md a.color-lighteastbay {
+  color: #4193ca;
+}
+.md a.color-lochmara {
+  color: #3383cb;
 }
 /* === Statusbar === */
 .statusbar {
@@ -307,6 +379,24 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .color-theme-black .statusbar {
   background: #000000;
+}
+.md .color-theme-lightblue .statusbar {
+  background: #08a6ea;
+}
+.md .color-theme-boulder .statusbar {
+  background: #515151;
+}
+.md .color-theme-emperor .statusbar {
+  background: #2f2f2f;
+}
+.md .color-theme-eastbay .statusbar {
+  background: #223748;
+}
+.md .color-theme-lighteastbay .statusbar {
+  background: #2a6a95;
+}
+.md .color-theme-lochmara .statusbar {
+  background: #245c8e;
 }
 /* === Views === */
 .views,
@@ -1337,6 +1427,30 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-black.navbar {
   background: #000000;
 }
+.md .color-theme-lightblue .navbar,
+.md .color-theme-lightblue.navbar {
+  background: #45C3F9;
+}
+.md .color-theme-boulder .navbar,
+.md .color-theme-boulder.navbar {
+  background: #777777;
+}
+.md .color-theme-emperor .navbar,
+.md .color-theme-emperor.navbar {
+  background: #555555;
+}
+.md .color-theme-eastbay .navbar,
+.md .color-theme-eastbay.navbar {
+  background: #3B5E7C;
+}
+.md .color-theme-lighteastbay .navbar,
+.md .color-theme-lighteastbay.navbar {
+  background: #4193ca;
+}
+.md .color-theme-lochmara .navbar,
+.md .color-theme-lochmara.navbar {
+  background: #3383cb;
+}
 .md .navbar.color-red {
   background: #f44336;
 }
@@ -1363,6 +1477,24 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .navbar.color-black {
   background: #000000;
+}
+.md .navbar.color-lightblue {
+  background: #45C3F9;
+}
+.md .navbar.color-boulder {
+  background: #777777;
+}
+.md .navbar.color-emperor {
+  background: #555555;
+}
+.md .navbar.color-eastbay {
+  background: #3B5E7C;
+}
+.md .navbar.color-lighteastbay {
+  background: #4193ca;
+}
+.md .navbar.color-lochmara {
+  background: #3383cb;
 }
 @media (orientation: landscape) {
   .md.device-iphone-x .ios-left-edge .navbar-inner,
@@ -1699,7 +1831,7 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .ios .color-theme-blue .tabbar-labels a.tab-link-active,
 .ios .color-theme-blue.tabbar-labels a.tab-link-active,
 .ios .color-theme-blue.tabbar a.tab-link-active {
-  color: #007aff;
+  color: #387EF5;
 }
 .ios .color-theme-pink .tabbar a.tab-link-active,
 .ios .color-theme-pink .tabbar-labels a.tab-link-active,
@@ -1737,6 +1869,42 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .ios .color-theme-black.tabbar a.tab-link-active {
   color: #000000;
 }
+.ios .color-theme-lightblue .tabbar a.tab-link-active,
+.ios .color-theme-lightblue .tabbar-labels a.tab-link-active,
+.ios .color-theme-lightblue.tabbar-labels a.tab-link-active,
+.ios .color-theme-lightblue.tabbar a.tab-link-active {
+  color: #45C3F9;
+}
+.ios .color-theme-boulder .tabbar a.tab-link-active,
+.ios .color-theme-boulder .tabbar-labels a.tab-link-active,
+.ios .color-theme-boulder.tabbar-labels a.tab-link-active,
+.ios .color-theme-boulder.tabbar a.tab-link-active {
+  color: #777777;
+}
+.ios .color-theme-emperor .tabbar a.tab-link-active,
+.ios .color-theme-emperor .tabbar-labels a.tab-link-active,
+.ios .color-theme-emperor.tabbar-labels a.tab-link-active,
+.ios .color-theme-emperor.tabbar a.tab-link-active {
+  color: #555555;
+}
+.ios .color-theme-eastbay .tabbar a.tab-link-active,
+.ios .color-theme-eastbay .tabbar-labels a.tab-link-active,
+.ios .color-theme-eastbay.tabbar-labels a.tab-link-active,
+.ios .color-theme-eastbay.tabbar a.tab-link-active {
+  color: #3B5E7C;
+}
+.ios .color-theme-lighteastbay .tabbar a.tab-link-active,
+.ios .color-theme-lighteastbay .tabbar-labels a.tab-link-active,
+.ios .color-theme-lighteastbay.tabbar-labels a.tab-link-active,
+.ios .color-theme-lighteastbay.tabbar a.tab-link-active {
+  color: #4193ca;
+}
+.ios .color-theme-lochmara .tabbar a.tab-link-active,
+.ios .color-theme-lochmara .tabbar-labels a.tab-link-active,
+.ios .color-theme-lochmara.tabbar-labels a.tab-link-active,
+.ios .color-theme-lochmara.tabbar a.tab-link-active {
+  color: #3383cb;
+}
 .ios .tabbar-labels.color-red a.tab-link-active,
 .ios .tabbar.color-red a.tab-link-active {
   color: #ff3b30;
@@ -1747,7 +1915,7 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .ios .tabbar-labels.color-blue a.tab-link-active,
 .ios .tabbar.color-blue a.tab-link-active {
-  color: #007aff;
+  color: #387EF5;
 }
 .ios .tabbar-labels.color-pink a.tab-link-active,
 .ios .tabbar.color-pink a.tab-link-active {
@@ -1772,6 +1940,30 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .ios .tabbar-labels.color-black a.tab-link-active,
 .ios .tabbar.color-black a.tab-link-active {
   color: #000000;
+}
+.ios .tabbar-labels.color-lightblue a.tab-link-active,
+.ios .tabbar.color-lightblue a.tab-link-active {
+  color: #45C3F9;
+}
+.ios .tabbar-labels.color-boulder a.tab-link-active,
+.ios .tabbar.color-boulder a.tab-link-active {
+  color: #777777;
+}
+.ios .tabbar-labels.color-emperor a.tab-link-active,
+.ios .tabbar.color-emperor a.tab-link-active {
+  color: #555555;
+}
+.ios .tabbar-labels.color-eastbay a.tab-link-active,
+.ios .tabbar.color-eastbay a.tab-link-active {
+  color: #3B5E7C;
+}
+.ios .tabbar-labels.color-lighteastbay a.tab-link-active,
+.ios .tabbar.color-lighteastbay a.tab-link-active {
+  color: #4193ca;
+}
+.ios .tabbar-labels.color-lochmara a.tab-link-active,
+.ios .tabbar.color-lochmara a.tab-link-active {
+  color: #3383cb;
 }
 .ios.device-iphone-x .views > .toolbar,
 .ios.device-iphone-x .view > .toolbar,
@@ -2141,6 +2333,30 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-black.toolbar:not(.messagebar) {
   background: #000000;
 }
+.md .color-theme-lightblue .toolbar:not(.messagebar),
+.md .color-theme-lightblue.toolbar:not(.messagebar) {
+  background: #45C3F9;
+}
+.md .color-theme-boulder .toolbar:not(.messagebar),
+.md .color-theme-boulder.toolbar:not(.messagebar) {
+  background: #777777;
+}
+.md .color-theme-emperor .toolbar:not(.messagebar),
+.md .color-theme-emperor.toolbar:not(.messagebar) {
+  background: #555555;
+}
+.md .color-theme-eastbay .toolbar:not(.messagebar),
+.md .color-theme-eastbay.toolbar:not(.messagebar) {
+  background: #3B5E7C;
+}
+.md .color-theme-lighteastbay .toolbar:not(.messagebar),
+.md .color-theme-lighteastbay.toolbar:not(.messagebar) {
+  background: #4193ca;
+}
+.md .color-theme-lochmara .toolbar:not(.messagebar),
+.md .color-theme-lochmara.toolbar:not(.messagebar) {
+  background: #3383cb;
+}
 .md .toolbar:not(.messagebar).color-red {
   background: #f44336;
 }
@@ -2167,6 +2383,24 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .toolbar:not(.messagebar).color-black {
   background: #000000;
+}
+.md .toolbar:not(.messagebar).color-lightblue {
+  background: #45C3F9;
+}
+.md .toolbar:not(.messagebar).color-boulder {
+  background: #777777;
+}
+.md .toolbar:not(.messagebar).color-emperor {
+  background: #555555;
+}
+.md .toolbar:not(.messagebar).color-eastbay {
+  background: #3B5E7C;
+}
+.md .toolbar:not(.messagebar).color-lighteastbay {
+  background: #4193ca;
+}
+.md .toolbar:not(.messagebar).color-lochmara {
+  background: #3383cb;
 }
 .md.device-iphone-x .views > .toolbar:first-child:not(.toolbar-bottom-md),
 .md.device-iphone-x .view > .toolbar:first-child:not(.toolbar-bottom-md),
@@ -2630,6 +2864,30 @@ html.with-statusbar.device-iphone-x .framework7-root {
 .md .color-theme-black.subnavbar {
   background: #000000;
 }
+.md .color-theme-lightblue .subnavbar,
+.md .color-theme-lightblue.subnavbar {
+  background: #45C3F9;
+}
+.md .color-theme-boulder .subnavbar,
+.md .color-theme-boulder.subnavbar {
+  background: #777777;
+}
+.md .color-theme-emperor .subnavbar,
+.md .color-theme-emperor.subnavbar {
+  background: #555555;
+}
+.md .color-theme-eastbay .subnavbar,
+.md .color-theme-eastbay.subnavbar {
+  background: #3B5E7C;
+}
+.md .color-theme-lighteastbay .subnavbar,
+.md .color-theme-lighteastbay.subnavbar {
+  background: #4193ca;
+}
+.md .color-theme-lochmara .subnavbar,
+.md .color-theme-lochmara.subnavbar {
+  background: #3383cb;
+}
 .md .subnavbar.color-red {
   background: #f44336;
 }
@@ -2656,6 +2914,24 @@ html.with-statusbar.device-iphone-x .framework7-root {
 }
 .md .subnavbar.color-black {
   background: #000000;
+}
+.md .subnavbar.color-lightblue {
+  background: #45C3F9;
+}
+.md .subnavbar.color-boulder {
+  background: #777777;
+}
+.md .subnavbar.color-emperor {
+  background: #555555;
+}
+.md .subnavbar.color-eastbay {
+  background: #3B5E7C;
+}
+.md .subnavbar.color-lighteastbay {
+  background: #4193ca;
+}
+.md .subnavbar.color-lochmara {
+  background: #3383cb;
 }
 @media (orientation: landscape) {
   .md.device-iphone-x .ios-left-edge .subnavbar-inner,
@@ -4518,7 +4794,7 @@ html.device-pixel-ratio-3 .ios li:last-child li .item-inner:after {
   color: #4cd964;
 }
 .ios .color-theme-blue .list-button {
-  color: #007aff;
+  color: #387EF5;
 }
 .ios .color-theme-pink .list-button {
   color: #ff2d55;
@@ -4537,6 +4813,24 @@ html.device-pixel-ratio-3 .ios li:last-child li .item-inner:after {
 }
 .ios .color-theme-black .list-button {
   color: #000000;
+}
+.ios .color-theme-lightblue .list-button {
+  color: #45C3F9;
+}
+.ios .color-theme-boulder .list-button {
+  color: #777777;
+}
+.ios .color-theme-emperor .list-button {
+  color: #555555;
+}
+.ios .color-theme-eastbay .list-button {
+  color: #3B5E7C;
+}
+.ios .color-theme-lighteastbay .list-button {
+  color: #4193ca;
+}
+.ios .color-theme-lochmara .list-button {
+  color: #3383cb;
 }
 .ios .list .list-button.color-red,
 .ios .list li.color-red .list-button,
@@ -4563,7 +4857,7 @@ html.device-pixel-ratio-3 .ios li:last-child li .item-inner:after {
 .ios .links-list a.color-blue,
 .ios .list .item-link.color-blue,
 .ios .list li.color-blue .item-link {
-  color: #007aff;
+  color: #387EF5;
 }
 .ios .list .list-button.color-pink,
 .ios .list li.color-pink .list-button,
@@ -4618,6 +4912,60 @@ html.device-pixel-ratio-3 .ios li:last-child li .item-inner:after {
 .ios .list .item-link.color-black,
 .ios .list li.color-black .item-link {
   color: #000000;
+}
+.ios .list .list-button.color-lightblue,
+.ios .list li.color-lightblue .list-button,
+.ios .links-list li.color-lightblue a,
+.ios .simple-list li.color-lightblue,
+.ios .links-list a.color-lightblue,
+.ios .list .item-link.color-lightblue,
+.ios .list li.color-lightblue .item-link {
+  color: #45C3F9;
+}
+.ios .list .list-button.color-boulder,
+.ios .list li.color-boulder .list-button,
+.ios .links-list li.color-boulder a,
+.ios .simple-list li.color-boulder,
+.ios .links-list a.color-boulder,
+.ios .list .item-link.color-boulder,
+.ios .list li.color-boulder .item-link {
+  color: #777777;
+}
+.ios .list .list-button.color-emperor,
+.ios .list li.color-emperor .list-button,
+.ios .links-list li.color-emperor a,
+.ios .simple-list li.color-emperor,
+.ios .links-list a.color-emperor,
+.ios .list .item-link.color-emperor,
+.ios .list li.color-emperor .item-link {
+  color: #555555;
+}
+.ios .list .list-button.color-eastbay,
+.ios .list li.color-eastbay .list-button,
+.ios .links-list li.color-eastbay a,
+.ios .simple-list li.color-eastbay,
+.ios .links-list a.color-eastbay,
+.ios .list .item-link.color-eastbay,
+.ios .list li.color-eastbay .item-link {
+  color: #3B5E7C;
+}
+.ios .list .list-button.color-lighteastbay,
+.ios .list li.color-lighteastbay .list-button,
+.ios .links-list li.color-lighteastbay a,
+.ios .simple-list li.color-lighteastbay,
+.ios .links-list a.color-lighteastbay,
+.ios .list .item-link.color-lighteastbay,
+.ios .list li.color-lighteastbay .item-link {
+  color: #4193ca;
+}
+.ios .list .list-button.color-lochmara,
+.ios .list li.color-lochmara .list-button,
+.ios .links-list li.color-lochmara a,
+.ios .simple-list li.color-lochmara,
+.ios .links-list a.color-lochmara,
+.ios .list .item-link.color-lochmara,
+.ios .list li.color-lochmara .item-link {
+  color: #3383cb;
 }
 .md .list {
   margin: 32px 0;
@@ -5347,6 +5695,24 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 .md .color-theme-black .list-button {
   color: #000000;
 }
+.md .color-theme-lightblue .list-button {
+  color: #45C3F9;
+}
+.md .color-theme-boulder .list-button {
+  color: #777777;
+}
+.md .color-theme-emperor .list-button {
+  color: #555555;
+}
+.md .color-theme-eastbay .list-button {
+  color: #3B5E7C;
+}
+.md .color-theme-lighteastbay .list-button {
+  color: #4193ca;
+}
+.md .color-theme-lochmara .list-button {
+  color: #3383cb;
+}
 .md .list .list-button.color-red,
 .md .list li.color-red .list-button,
 .md .links-list li.color-red a,
@@ -5428,6 +5794,60 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 .md .list li.color-black .item-link {
   color: #000000;
 }
+.md .list .list-button.color-lightblue,
+.md .list li.color-lightblue .list-button,
+.md .links-list li.color-lightblue a,
+.md .simple-list li.color-lightblue,
+.md .links-list a.color-lightblue,
+.md .list .item-link.color-lightblue,
+.md .list li.color-lightblue .item-link {
+  color: #45C3F9;
+}
+.md .list .list-button.color-boulder,
+.md .list li.color-boulder .list-button,
+.md .links-list li.color-boulder a,
+.md .simple-list li.color-boulder,
+.md .links-list a.color-boulder,
+.md .list .item-link.color-boulder,
+.md .list li.color-boulder .item-link {
+  color: #777777;
+}
+.md .list .list-button.color-emperor,
+.md .list li.color-emperor .list-button,
+.md .links-list li.color-emperor a,
+.md .simple-list li.color-emperor,
+.md .links-list a.color-emperor,
+.md .list .item-link.color-emperor,
+.md .list li.color-emperor .item-link {
+  color: #555555;
+}
+.md .list .list-button.color-eastbay,
+.md .list li.color-eastbay .list-button,
+.md .links-list li.color-eastbay a,
+.md .simple-list li.color-eastbay,
+.md .links-list a.color-eastbay,
+.md .list .item-link.color-eastbay,
+.md .list li.color-eastbay .item-link {
+  color: #3B5E7C;
+}
+.md .list .list-button.color-lighteastbay,
+.md .list li.color-lighteastbay .list-button,
+.md .links-list li.color-lighteastbay a,
+.md .simple-list li.color-lighteastbay,
+.md .links-list a.color-lighteastbay,
+.md .list .item-link.color-lighteastbay,
+.md .list li.color-lighteastbay .item-link {
+  color: #4193ca;
+}
+.md .list .list-button.color-lochmara,
+.md .list li.color-lochmara .list-button,
+.md .links-list li.color-lochmara a,
+.md .simple-list li.color-lochmara,
+.md .links-list a.color-lochmara,
+.md .list .item-link.color-lochmara,
+.md .list li.color-lochmara .item-link {
+  color: #3383cb;
+}
 /* === Badge === */
 .badge {
   display: inline-block;
@@ -5473,7 +5893,7 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
   background-color: #4cd964;
 }
 .ios .badge.color-blue {
-  background-color: #007aff;
+  background-color: #387EF5;
 }
 .ios .badge.color-pink {
   background-color: #ff2d55;
@@ -5492,6 +5912,24 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 }
 .ios .badge.color-black {
   background-color: #000000;
+}
+.ios .badge.color-lightblue {
+  background-color: #45C3F9;
+}
+.ios .badge.color-boulder {
+  background-color: #777777;
+}
+.ios .badge.color-emperor {
+  background-color: #555555;
+}
+.ios .badge.color-eastbay {
+  background-color: #3B5E7C;
+}
+.ios .badge.color-lighteastbay {
+  background-color: #4193ca;
+}
+.ios .badge.color-lochmara {
+  background-color: #3383cb;
 }
 .md .badge {
   font-size: 10px;
@@ -5534,6 +5972,24 @@ html.device-pixel-ratio-3 .md li:last-child li .item-inner:after {
 }
 .md .badge.color-black {
   background-color: #000000;
+}
+.md .badge.color-lightblue {
+  background-color: #45C3F9;
+}
+.md .badge.color-boulder {
+  background-color: #777777;
+}
+.md .badge.color-emperor {
+  background-color: #555555;
+}
+.md .badge.color-eastbay {
+  background-color: #3B5E7C;
+}
+.md .badge.color-lighteastbay {
+  background-color: #4193ca;
+}
+.md .badge.color-lochmara {
+  background-color: #3383cb;
 }
 button {
   -webkit-appearance: none;
@@ -5745,11 +6201,11 @@ button {
   background-color: transparent;
 }
 .ios .color-theme-blue .button {
-  border-color: #007aff;
-  color: #007aff;
+  border-color: #387EF5;
+  color: #387EF5;
 }
 .ios .color-theme-blue .button.active-state {
-  background: rgba(0, 122, 255, 0.15);
+  background: rgba(56, 126, 245, 0.15);
 }
 .ios .color-theme-blue .button.button-active,
 .ios .color-theme-blue .button.tab-link-active,
@@ -5759,19 +6215,19 @@ button {
 }
 .ios .color-theme-blue .button.button-active,
 .ios .color-theme-blue .button.tab-link-active {
-  background: #007aff;
+  background: #387EF5;
 }
 .ios .color-theme-blue .button.button-fill,
 .ios .color-theme-blue .button.button-fill-ios {
-  background: #007aff;
+  background: #387EF5;
   border-color: transparent;
 }
 .ios .color-theme-blue .button.button-small.button-fill.active-state,
 .ios .color-theme-blue .button.button-small-ios.button-fill.active-state,
 .ios .color-theme-blue .button.button-small.button-fill-ios.active-state,
 .ios .color-theme-blue .button.button-small-ios.button-fill-ios.active-state {
-  color: #007aff;
-  border: 2px solid #007aff;
+  color: #387EF5;
+  border: 2px solid #387EF5;
   background-color: transparent;
 }
 .ios .color-theme-pink .button {
@@ -5954,6 +6410,186 @@ button {
   border: 2px solid #000000;
   background-color: transparent;
 }
+.ios .color-theme-lightblue .button {
+  border-color: #45C3F9;
+  color: #45C3F9;
+}
+.ios .color-theme-lightblue .button.active-state {
+  background: rgba(69, 195, 249, 0.15);
+}
+.ios .color-theme-lightblue .button.button-active,
+.ios .color-theme-lightblue .button.tab-link-active,
+.ios .color-theme-lightblue .button.button-fill,
+.ios .color-theme-lightblue .button.button-fill-ios {
+  color: #fff;
+}
+.ios .color-theme-lightblue .button.button-active,
+.ios .color-theme-lightblue .button.tab-link-active {
+  background: #45C3F9;
+}
+.ios .color-theme-lightblue .button.button-fill,
+.ios .color-theme-lightblue .button.button-fill-ios {
+  background: #45C3F9;
+  border-color: transparent;
+}
+.ios .color-theme-lightblue .button.button-small.button-fill.active-state,
+.ios .color-theme-lightblue .button.button-small-ios.button-fill.active-state,
+.ios .color-theme-lightblue .button.button-small.button-fill-ios.active-state,
+.ios .color-theme-lightblue .button.button-small-ios.button-fill-ios.active-state {
+  color: #45C3F9;
+  border: 2px solid #45C3F9;
+  background-color: transparent;
+}
+.ios .color-theme-boulder .button {
+  border-color: #777777;
+  color: #777777;
+}
+.ios .color-theme-boulder .button.active-state {
+  background: rgba(119, 119, 119, 0.15);
+}
+.ios .color-theme-boulder .button.button-active,
+.ios .color-theme-boulder .button.tab-link-active,
+.ios .color-theme-boulder .button.button-fill,
+.ios .color-theme-boulder .button.button-fill-ios {
+  color: #fff;
+}
+.ios .color-theme-boulder .button.button-active,
+.ios .color-theme-boulder .button.tab-link-active {
+  background: #777777;
+}
+.ios .color-theme-boulder .button.button-fill,
+.ios .color-theme-boulder .button.button-fill-ios {
+  background: #777777;
+  border-color: transparent;
+}
+.ios .color-theme-boulder .button.button-small.button-fill.active-state,
+.ios .color-theme-boulder .button.button-small-ios.button-fill.active-state,
+.ios .color-theme-boulder .button.button-small.button-fill-ios.active-state,
+.ios .color-theme-boulder .button.button-small-ios.button-fill-ios.active-state {
+  color: #777777;
+  border: 2px solid #777777;
+  background-color: transparent;
+}
+.ios .color-theme-emperor .button {
+  border-color: #555555;
+  color: #555555;
+}
+.ios .color-theme-emperor .button.active-state {
+  background: rgba(85, 85, 85, 0.15);
+}
+.ios .color-theme-emperor .button.button-active,
+.ios .color-theme-emperor .button.tab-link-active,
+.ios .color-theme-emperor .button.button-fill,
+.ios .color-theme-emperor .button.button-fill-ios {
+  color: #fff;
+}
+.ios .color-theme-emperor .button.button-active,
+.ios .color-theme-emperor .button.tab-link-active {
+  background: #555555;
+}
+.ios .color-theme-emperor .button.button-fill,
+.ios .color-theme-emperor .button.button-fill-ios {
+  background: #555555;
+  border-color: transparent;
+}
+.ios .color-theme-emperor .button.button-small.button-fill.active-state,
+.ios .color-theme-emperor .button.button-small-ios.button-fill.active-state,
+.ios .color-theme-emperor .button.button-small.button-fill-ios.active-state,
+.ios .color-theme-emperor .button.button-small-ios.button-fill-ios.active-state {
+  color: #555555;
+  border: 2px solid #555555;
+  background-color: transparent;
+}
+.ios .color-theme-eastbay .button {
+  border-color: #3B5E7C;
+  color: #3B5E7C;
+}
+.ios .color-theme-eastbay .button.active-state {
+  background: rgba(59, 94, 124, 0.15);
+}
+.ios .color-theme-eastbay .button.button-active,
+.ios .color-theme-eastbay .button.tab-link-active,
+.ios .color-theme-eastbay .button.button-fill,
+.ios .color-theme-eastbay .button.button-fill-ios {
+  color: #fff;
+}
+.ios .color-theme-eastbay .button.button-active,
+.ios .color-theme-eastbay .button.tab-link-active {
+  background: #3B5E7C;
+}
+.ios .color-theme-eastbay .button.button-fill,
+.ios .color-theme-eastbay .button.button-fill-ios {
+  background: #3B5E7C;
+  border-color: transparent;
+}
+.ios .color-theme-eastbay .button.button-small.button-fill.active-state,
+.ios .color-theme-eastbay .button.button-small-ios.button-fill.active-state,
+.ios .color-theme-eastbay .button.button-small.button-fill-ios.active-state,
+.ios .color-theme-eastbay .button.button-small-ios.button-fill-ios.active-state {
+  color: #3B5E7C;
+  border: 2px solid #3B5E7C;
+  background-color: transparent;
+}
+.ios .color-theme-lighteastbay .button {
+  border-color: #4193ca;
+  color: #4193ca;
+}
+.ios .color-theme-lighteastbay .button.active-state {
+  background: rgba(65, 147, 202, 0.15);
+}
+.ios .color-theme-lighteastbay .button.button-active,
+.ios .color-theme-lighteastbay .button.tab-link-active,
+.ios .color-theme-lighteastbay .button.button-fill,
+.ios .color-theme-lighteastbay .button.button-fill-ios {
+  color: #fff;
+}
+.ios .color-theme-lighteastbay .button.button-active,
+.ios .color-theme-lighteastbay .button.tab-link-active {
+  background: #4193ca;
+}
+.ios .color-theme-lighteastbay .button.button-fill,
+.ios .color-theme-lighteastbay .button.button-fill-ios {
+  background: #4193ca;
+  border-color: transparent;
+}
+.ios .color-theme-lighteastbay .button.button-small.button-fill.active-state,
+.ios .color-theme-lighteastbay .button.button-small-ios.button-fill.active-state,
+.ios .color-theme-lighteastbay .button.button-small.button-fill-ios.active-state,
+.ios .color-theme-lighteastbay .button.button-small-ios.button-fill-ios.active-state {
+  color: #4193ca;
+  border: 2px solid #4193ca;
+  background-color: transparent;
+}
+.ios .color-theme-lochmara .button {
+  border-color: #3383cb;
+  color: #3383cb;
+}
+.ios .color-theme-lochmara .button.active-state {
+  background: rgba(51, 131, 203, 0.15);
+}
+.ios .color-theme-lochmara .button.button-active,
+.ios .color-theme-lochmara .button.tab-link-active,
+.ios .color-theme-lochmara .button.button-fill,
+.ios .color-theme-lochmara .button.button-fill-ios {
+  color: #fff;
+}
+.ios .color-theme-lochmara .button.button-active,
+.ios .color-theme-lochmara .button.tab-link-active {
+  background: #3383cb;
+}
+.ios .color-theme-lochmara .button.button-fill,
+.ios .color-theme-lochmara .button.button-fill-ios {
+  background: #3383cb;
+  border-color: transparent;
+}
+.ios .color-theme-lochmara .button.button-small.button-fill.active-state,
+.ios .color-theme-lochmara .button.button-small-ios.button-fill.active-state,
+.ios .color-theme-lochmara .button.button-small.button-fill-ios.active-state,
+.ios .color-theme-lochmara .button.button-small-ios.button-fill-ios.active-state {
+  color: #3383cb;
+  border: 2px solid #3383cb;
+  background-color: transparent;
+}
 .ios .button.color-red {
   border-color: #ff3b30;
   color: #ff3b30;
@@ -6015,11 +6651,11 @@ button {
   background-color: transparent;
 }
 .ios .button.color-blue {
-  border-color: #007aff;
-  color: #007aff;
+  border-color: #387EF5;
+  color: #387EF5;
 }
 .ios .button.color-blue.active-state {
-  background: rgba(0, 122, 255, 0.15);
+  background: rgba(56, 126, 245, 0.15);
 }
 .ios .button.color-blue.button-active,
 .ios .button.color-blue.tab-link-active,
@@ -6029,19 +6665,19 @@ button {
 }
 .ios .button.color-blue.button-active,
 .ios .button.color-blue.tab-link-active {
-  background: #007aff;
+  background: #387EF5;
 }
 .ios .button.color-blue.button-fill,
 .ios .button.color-blue.button-fill-ios {
-  background: #007aff;
+  background: #387EF5;
   border-color: transparent;
 }
 .ios .button.color-blue.button-small.button-fill.active-state,
 .ios .button.color-blue.button-small-ios.button-fill.active-state,
 .ios .button.color-blue.button-small.button-fill-ios.active-state,
 .ios .button.color-blue.button-small-ios.button-fill-ios.active-state {
-  color: #007aff;
-  border: 2px solid #007aff;
+  color: #387EF5;
+  border: 2px solid #387EF5;
   background-color: transparent;
 }
 .ios .button.color-pink {
@@ -6222,6 +6858,186 @@ button {
 .ios .button.color-black.button-small-ios.button-fill-ios.active-state {
   color: #000000;
   border: 2px solid #000000;
+  background-color: transparent;
+}
+.ios .button.color-lightblue {
+  border-color: #45C3F9;
+  color: #45C3F9;
+}
+.ios .button.color-lightblue.active-state {
+  background: rgba(69, 195, 249, 0.15);
+}
+.ios .button.color-lightblue.button-active,
+.ios .button.color-lightblue.tab-link-active,
+.ios .button.color-lightblue.button-fill,
+.ios .button.color-lightblue.button-fill-ios {
+  color: #fff;
+}
+.ios .button.color-lightblue.button-active,
+.ios .button.color-lightblue.tab-link-active {
+  background: #45C3F9;
+}
+.ios .button.color-lightblue.button-fill,
+.ios .button.color-lightblue.button-fill-ios {
+  background: #45C3F9;
+  border-color: transparent;
+}
+.ios .button.color-lightblue.button-small.button-fill.active-state,
+.ios .button.color-lightblue.button-small-ios.button-fill.active-state,
+.ios .button.color-lightblue.button-small.button-fill-ios.active-state,
+.ios .button.color-lightblue.button-small-ios.button-fill-ios.active-state {
+  color: #45C3F9;
+  border: 2px solid #45C3F9;
+  background-color: transparent;
+}
+.ios .button.color-boulder {
+  border-color: #777777;
+  color: #777777;
+}
+.ios .button.color-boulder.active-state {
+  background: rgba(119, 119, 119, 0.15);
+}
+.ios .button.color-boulder.button-active,
+.ios .button.color-boulder.tab-link-active,
+.ios .button.color-boulder.button-fill,
+.ios .button.color-boulder.button-fill-ios {
+  color: #fff;
+}
+.ios .button.color-boulder.button-active,
+.ios .button.color-boulder.tab-link-active {
+  background: #777777;
+}
+.ios .button.color-boulder.button-fill,
+.ios .button.color-boulder.button-fill-ios {
+  background: #777777;
+  border-color: transparent;
+}
+.ios .button.color-boulder.button-small.button-fill.active-state,
+.ios .button.color-boulder.button-small-ios.button-fill.active-state,
+.ios .button.color-boulder.button-small.button-fill-ios.active-state,
+.ios .button.color-boulder.button-small-ios.button-fill-ios.active-state {
+  color: #777777;
+  border: 2px solid #777777;
+  background-color: transparent;
+}
+.ios .button.color-emperor {
+  border-color: #555555;
+  color: #555555;
+}
+.ios .button.color-emperor.active-state {
+  background: rgba(85, 85, 85, 0.15);
+}
+.ios .button.color-emperor.button-active,
+.ios .button.color-emperor.tab-link-active,
+.ios .button.color-emperor.button-fill,
+.ios .button.color-emperor.button-fill-ios {
+  color: #fff;
+}
+.ios .button.color-emperor.button-active,
+.ios .button.color-emperor.tab-link-active {
+  background: #555555;
+}
+.ios .button.color-emperor.button-fill,
+.ios .button.color-emperor.button-fill-ios {
+  background: #555555;
+  border-color: transparent;
+}
+.ios .button.color-emperor.button-small.button-fill.active-state,
+.ios .button.color-emperor.button-small-ios.button-fill.active-state,
+.ios .button.color-emperor.button-small.button-fill-ios.active-state,
+.ios .button.color-emperor.button-small-ios.button-fill-ios.active-state {
+  color: #555555;
+  border: 2px solid #555555;
+  background-color: transparent;
+}
+.ios .button.color-eastbay {
+  border-color: #3B5E7C;
+  color: #3B5E7C;
+}
+.ios .button.color-eastbay.active-state {
+  background: rgba(59, 94, 124, 0.15);
+}
+.ios .button.color-eastbay.button-active,
+.ios .button.color-eastbay.tab-link-active,
+.ios .button.color-eastbay.button-fill,
+.ios .button.color-eastbay.button-fill-ios {
+  color: #fff;
+}
+.ios .button.color-eastbay.button-active,
+.ios .button.color-eastbay.tab-link-active {
+  background: #3B5E7C;
+}
+.ios .button.color-eastbay.button-fill,
+.ios .button.color-eastbay.button-fill-ios {
+  background: #3B5E7C;
+  border-color: transparent;
+}
+.ios .button.color-eastbay.button-small.button-fill.active-state,
+.ios .button.color-eastbay.button-small-ios.button-fill.active-state,
+.ios .button.color-eastbay.button-small.button-fill-ios.active-state,
+.ios .button.color-eastbay.button-small-ios.button-fill-ios.active-state {
+  color: #3B5E7C;
+  border: 2px solid #3B5E7C;
+  background-color: transparent;
+}
+.ios .button.color-lighteastbay {
+  border-color: #4193ca;
+  color: #4193ca;
+}
+.ios .button.color-lighteastbay.active-state {
+  background: rgba(65, 147, 202, 0.15);
+}
+.ios .button.color-lighteastbay.button-active,
+.ios .button.color-lighteastbay.tab-link-active,
+.ios .button.color-lighteastbay.button-fill,
+.ios .button.color-lighteastbay.button-fill-ios {
+  color: #fff;
+}
+.ios .button.color-lighteastbay.button-active,
+.ios .button.color-lighteastbay.tab-link-active {
+  background: #4193ca;
+}
+.ios .button.color-lighteastbay.button-fill,
+.ios .button.color-lighteastbay.button-fill-ios {
+  background: #4193ca;
+  border-color: transparent;
+}
+.ios .button.color-lighteastbay.button-small.button-fill.active-state,
+.ios .button.color-lighteastbay.button-small-ios.button-fill.active-state,
+.ios .button.color-lighteastbay.button-small.button-fill-ios.active-state,
+.ios .button.color-lighteastbay.button-small-ios.button-fill-ios.active-state {
+  color: #4193ca;
+  border: 2px solid #4193ca;
+  background-color: transparent;
+}
+.ios .button.color-lochmara {
+  border-color: #3383cb;
+  color: #3383cb;
+}
+.ios .button.color-lochmara.active-state {
+  background: rgba(51, 131, 203, 0.15);
+}
+.ios .button.color-lochmara.button-active,
+.ios .button.color-lochmara.tab-link-active,
+.ios .button.color-lochmara.button-fill,
+.ios .button.color-lochmara.button-fill-ios {
+  color: #fff;
+}
+.ios .button.color-lochmara.button-active,
+.ios .button.color-lochmara.tab-link-active {
+  background: #3383cb;
+}
+.ios .button.color-lochmara.button-fill,
+.ios .button.color-lochmara.button-fill-ios {
+  background: #3383cb;
+  border-color: transparent;
+}
+.ios .button.color-lochmara.button-small.button-fill.active-state,
+.ios .button.color-lochmara.button-small-ios.button-fill.active-state,
+.ios .button.color-lochmara.button-small.button-fill-ios.active-state,
+.ios .button.color-lochmara.button-small-ios.button-fill-ios.active-state {
+  color: #3383cb;
+  border: 2px solid #3383cb;
   background-color: transparent;
 }
 .md .button {
@@ -6615,6 +7431,180 @@ button {
 .md .color-black .button.button-outline {
   border-color: #000000;
 }
+.md .color-theme-lightblue .button,
+.md .color-lightblue .button {
+  color: #45C3F9;
+}
+.md .color-theme-lightblue .button.button-fill,
+.md .color-lightblue .button.button-fill,
+.md .color-theme-lightblue .button.button-fill-md,
+.md .color-lightblue .button.button-fill-md,
+.md .color-theme-lightblue .button.button-active,
+.md .color-lightblue .button.button-active,
+.md .color-theme-lightblue .button.tab-link-active,
+.md .color-lightblue .button.tab-link-active {
+  background-color: #45C3F9;
+  color: #fff;
+}
+.md .color-theme-lightblue .button.button-fill.active-state,
+.md .color-lightblue .button.button-fill.active-state,
+.md .color-theme-lightblue .button.button-fill-md.active-state,
+.md .color-lightblue .button.button-fill-md.active-state,
+.md .color-theme-lightblue .button.button-active.active-state,
+.md .color-lightblue .button.button-active.active-state,
+.md .color-theme-lightblue .button.tab-link-active.active-state,
+.md .color-lightblue .button.tab-link-active.active-state {
+  background: #1db6f8;
+}
+.md .color-theme-lightblue .button.button-outline,
+.md .color-lightblue .button.button-outline {
+  border-color: #45C3F9;
+}
+.md .color-theme-boulder .button,
+.md .color-boulder .button {
+  color: #777777;
+}
+.md .color-theme-boulder .button.button-fill,
+.md .color-boulder .button.button-fill,
+.md .color-theme-boulder .button.button-fill-md,
+.md .color-boulder .button.button-fill-md,
+.md .color-theme-boulder .button.button-active,
+.md .color-boulder .button.button-active,
+.md .color-theme-boulder .button.tab-link-active,
+.md .color-boulder .button.tab-link-active {
+  background-color: #777777;
+  color: #fff;
+}
+.md .color-theme-boulder .button.button-fill.active-state,
+.md .color-boulder .button.button-fill.active-state,
+.md .color-theme-boulder .button.button-fill-md.active-state,
+.md .color-boulder .button.button-fill-md.active-state,
+.md .color-theme-boulder .button.button-active.active-state,
+.md .color-boulder .button.button-active.active-state,
+.md .color-theme-boulder .button.tab-link-active.active-state,
+.md .color-boulder .button.tab-link-active.active-state {
+  background: #636363;
+}
+.md .color-theme-boulder .button.button-outline,
+.md .color-boulder .button.button-outline {
+  border-color: #777777;
+}
+.md .color-theme-emperor .button,
+.md .color-emperor .button {
+  color: #555555;
+}
+.md .color-theme-emperor .button.button-fill,
+.md .color-emperor .button.button-fill,
+.md .color-theme-emperor .button.button-fill-md,
+.md .color-emperor .button.button-fill-md,
+.md .color-theme-emperor .button.button-active,
+.md .color-emperor .button.button-active,
+.md .color-theme-emperor .button.tab-link-active,
+.md .color-emperor .button.tab-link-active {
+  background-color: #555555;
+  color: #fff;
+}
+.md .color-theme-emperor .button.button-fill.active-state,
+.md .color-emperor .button.button-fill.active-state,
+.md .color-theme-emperor .button.button-fill-md.active-state,
+.md .color-emperor .button.button-fill-md.active-state,
+.md .color-theme-emperor .button.button-active.active-state,
+.md .color-emperor .button.button-active.active-state,
+.md .color-theme-emperor .button.tab-link-active.active-state,
+.md .color-emperor .button.tab-link-active.active-state {
+  background: #414141;
+}
+.md .color-theme-emperor .button.button-outline,
+.md .color-emperor .button.button-outline {
+  border-color: #555555;
+}
+.md .color-theme-eastbay .button,
+.md .color-eastbay .button {
+  color: #3B5E7C;
+}
+.md .color-theme-eastbay .button.button-fill,
+.md .color-eastbay .button.button-fill,
+.md .color-theme-eastbay .button.button-fill-md,
+.md .color-eastbay .button.button-fill-md,
+.md .color-theme-eastbay .button.button-active,
+.md .color-eastbay .button.button-active,
+.md .color-theme-eastbay .button.tab-link-active,
+.md .color-eastbay .button.tab-link-active {
+  background-color: #3B5E7C;
+  color: #fff;
+}
+.md .color-theme-eastbay .button.button-fill.active-state,
+.md .color-eastbay .button.button-fill.active-state,
+.md .color-theme-eastbay .button.button-fill-md.active-state,
+.md .color-eastbay .button.button-fill-md.active-state,
+.md .color-theme-eastbay .button.button-active.active-state,
+.md .color-eastbay .button.button-active.active-state,
+.md .color-theme-eastbay .button.tab-link-active.active-state,
+.md .color-eastbay .button.tab-link-active.active-state {
+  background: #2e4960;
+}
+.md .color-theme-eastbay .button.button-outline,
+.md .color-eastbay .button.button-outline {
+  border-color: #3B5E7C;
+}
+.md .color-theme-lighteastbay .button,
+.md .color-lighteastbay .button {
+  color: #4193ca;
+}
+.md .color-theme-lighteastbay .button.button-fill,
+.md .color-lighteastbay .button.button-fill,
+.md .color-theme-lighteastbay .button.button-fill-md,
+.md .color-lighteastbay .button.button-fill-md,
+.md .color-theme-lighteastbay .button.button-active,
+.md .color-lighteastbay .button.button-active,
+.md .color-theme-lighteastbay .button.tab-link-active,
+.md .color-lighteastbay .button.tab-link-active {
+  background-color: #4193ca;
+  color: #fff;
+}
+.md .color-theme-lighteastbay .button.button-fill.active-state,
+.md .color-lighteastbay .button.button-fill.active-state,
+.md .color-theme-lighteastbay .button.button-fill-md.active-state,
+.md .color-lighteastbay .button.button-fill-md.active-state,
+.md .color-theme-lighteastbay .button.button-active.active-state,
+.md .color-lighteastbay .button.button-active.active-state,
+.md .color-theme-lighteastbay .button.tab-link-active.active-state,
+.md .color-lighteastbay .button.tab-link-active.active-state {
+  background: #317eb1;
+}
+.md .color-theme-lighteastbay .button.button-outline,
+.md .color-lighteastbay .button.button-outline {
+  border-color: #4193ca;
+}
+.md .color-theme-lochmara .button,
+.md .color-lochmara .button {
+  color: #3383cb;
+}
+.md .color-theme-lochmara .button.button-fill,
+.md .color-lochmara .button.button-fill,
+.md .color-theme-lochmara .button.button-fill-md,
+.md .color-lochmara .button.button-fill-md,
+.md .color-theme-lochmara .button.button-active,
+.md .color-lochmara .button.button-active,
+.md .color-theme-lochmara .button.tab-link-active,
+.md .color-lochmara .button.tab-link-active {
+  background-color: #3383cb;
+  color: #fff;
+}
+.md .color-theme-lochmara .button.button-fill.active-state,
+.md .color-lochmara .button.button-fill.active-state,
+.md .color-theme-lochmara .button.button-fill-md.active-state,
+.md .color-lochmara .button.button-fill-md.active-state,
+.md .color-theme-lochmara .button.button-active.active-state,
+.md .color-lochmara .button.button-active.active-state,
+.md .color-theme-lochmara .button.tab-link-active.active-state,
+.md .color-lochmara .button.tab-link-active.active-state {
+  background: #2b6eaa;
+}
+.md .color-theme-lochmara .button.button-outline,
+.md .color-lochmara .button.button-outline {
+  border-color: #3383cb;
+}
 .md .button.color-red {
   color: #f44336;
 }
@@ -6786,6 +7776,120 @@ button {
 .md .button.color-black.button-outline {
   border-color: #000000;
 }
+.md .button.color-lightblue {
+  color: #45C3F9;
+}
+.md .button.color-lightblue.button-fill,
+.md .button.color-lightblue.button-fill-md,
+.md .button.color-lightblue.button-active,
+.md .button.color-lightblue.tab-link-active {
+  background-color: #45C3F9;
+  color: #fff;
+}
+.md .button.color-lightblue.button-fill.active-state,
+.md .button.color-lightblue.button-fill-md.active-state,
+.md .button.color-lightblue.button-active.active-state,
+.md .button.color-lightblue.tab-link-active.active-state {
+  background: #1db6f8;
+}
+.md .button.color-lightblue.button-outline {
+  border-color: #45C3F9;
+}
+.md .button.color-boulder {
+  color: #777777;
+}
+.md .button.color-boulder.button-fill,
+.md .button.color-boulder.button-fill-md,
+.md .button.color-boulder.button-active,
+.md .button.color-boulder.tab-link-active {
+  background-color: #777777;
+  color: #fff;
+}
+.md .button.color-boulder.button-fill.active-state,
+.md .button.color-boulder.button-fill-md.active-state,
+.md .button.color-boulder.button-active.active-state,
+.md .button.color-boulder.tab-link-active.active-state {
+  background: #636363;
+}
+.md .button.color-boulder.button-outline {
+  border-color: #777777;
+}
+.md .button.color-emperor {
+  color: #555555;
+}
+.md .button.color-emperor.button-fill,
+.md .button.color-emperor.button-fill-md,
+.md .button.color-emperor.button-active,
+.md .button.color-emperor.tab-link-active {
+  background-color: #555555;
+  color: #fff;
+}
+.md .button.color-emperor.button-fill.active-state,
+.md .button.color-emperor.button-fill-md.active-state,
+.md .button.color-emperor.button-active.active-state,
+.md .button.color-emperor.tab-link-active.active-state {
+  background: #414141;
+}
+.md .button.color-emperor.button-outline {
+  border-color: #555555;
+}
+.md .button.color-eastbay {
+  color: #3B5E7C;
+}
+.md .button.color-eastbay.button-fill,
+.md .button.color-eastbay.button-fill-md,
+.md .button.color-eastbay.button-active,
+.md .button.color-eastbay.tab-link-active {
+  background-color: #3B5E7C;
+  color: #fff;
+}
+.md .button.color-eastbay.button-fill.active-state,
+.md .button.color-eastbay.button-fill-md.active-state,
+.md .button.color-eastbay.button-active.active-state,
+.md .button.color-eastbay.tab-link-active.active-state {
+  background: #2e4960;
+}
+.md .button.color-eastbay.button-outline {
+  border-color: #3B5E7C;
+}
+.md .button.color-lighteastbay {
+  color: #4193ca;
+}
+.md .button.color-lighteastbay.button-fill,
+.md .button.color-lighteastbay.button-fill-md,
+.md .button.color-lighteastbay.button-active,
+.md .button.color-lighteastbay.tab-link-active {
+  background-color: #4193ca;
+  color: #fff;
+}
+.md .button.color-lighteastbay.button-fill.active-state,
+.md .button.color-lighteastbay.button-fill-md.active-state,
+.md .button.color-lighteastbay.button-active.active-state,
+.md .button.color-lighteastbay.tab-link-active.active-state {
+  background: #317eb1;
+}
+.md .button.color-lighteastbay.button-outline {
+  border-color: #4193ca;
+}
+.md .button.color-lochmara {
+  color: #3383cb;
+}
+.md .button.color-lochmara.button-fill,
+.md .button.color-lochmara.button-fill-md,
+.md .button.color-lochmara.button-active,
+.md .button.color-lochmara.tab-link-active {
+  background-color: #3383cb;
+  color: #fff;
+}
+.md .button.color-lochmara.button-fill.active-state,
+.md .button.color-lochmara.button-fill-md.active-state,
+.md .button.color-lochmara.button-active.active-state,
+.md .button.color-lochmara.tab-link-active.active-state {
+  background: #2b6eaa;
+}
+.md .button.color-lochmara.button-outline {
+  border-color: #3383cb;
+}
 /* === Touch Ripple === */
 .md .ripple,
 .md .fab a,
@@ -6898,6 +8002,30 @@ button {
 .md .ripple-black .ripple-wave {
   background-color: rgba(0, 0, 0, 0.3);
 }
+.md .ripple-color-lightblue .ripple-wave,
+.md .ripple-lightblue .ripple-wave {
+  background-color: rgba(69, 195, 249, 0.3);
+}
+.md .ripple-color-boulder .ripple-wave,
+.md .ripple-boulder .ripple-wave {
+  background-color: rgba(119, 119, 119, 0.3);
+}
+.md .ripple-color-emperor .ripple-wave,
+.md .ripple-emperor .ripple-wave {
+  background-color: rgba(85, 85, 85, 0.3);
+}
+.md .ripple-color-eastbay .ripple-wave,
+.md .ripple-eastbay .ripple-wave {
+  background-color: rgba(59, 94, 124, 0.3);
+}
+.md .ripple-color-lighteastbay .ripple-wave,
+.md .ripple-lighteastbay .ripple-wave {
+  background-color: rgba(65, 147, 202, 0.3);
+}
+.md .ripple-color-lochmara .ripple-wave,
+.md .ripple-lochmara .ripple-wave {
+  background-color: rgba(51, 131, 203, 0.3);
+}
 /* === Icon === */
 i.icon {
   display: inline-block;
@@ -6987,7 +8115,7 @@ i.icon {
 .ios .color-theme-blue .icon-next,
 .ios .icon-next.color-blue,
 .ios a.link.color-blue .icon-next {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%23007aff'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%23387EF5'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
 }
 .ios .color-theme-blue .icon-back,
 .ios .icon-back.color-blue,
@@ -6995,7 +8123,7 @@ i.icon {
 .ios .color-theme-blue .icon-prev,
 .ios .icon-prev.color-blue,
 .ios a.link.color-blue .icon-prev {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%23007aff'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%23387EF5'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
 }
 .ios .color-theme-pink .icon-forward,
 .ios .icon-forward.color-pink,
@@ -7093,6 +8221,102 @@ i.icon {
 .ios a.link.color-black .icon-prev {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%23000000'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
 }
+.ios .color-theme-lightblue .icon-forward,
+.ios .icon-forward.color-lightblue,
+.ios a.link.color-lightblue .icon-forward,
+.ios .color-theme-lightblue .icon-next,
+.ios .icon-next.color-lightblue,
+.ios a.link.color-lightblue .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%2345C3F9'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-lightblue .icon-back,
+.ios .icon-back.color-lightblue,
+.ios a.link.color-lightblue .icon-back,
+.ios .color-theme-lightblue .icon-prev,
+.ios .icon-prev.color-lightblue,
+.ios a.link.color-lightblue .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%2345C3F9'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-boulder .icon-forward,
+.ios .icon-forward.color-boulder,
+.ios a.link.color-boulder .icon-forward,
+.ios .color-theme-boulder .icon-next,
+.ios .icon-next.color-boulder,
+.ios a.link.color-boulder .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%23777777'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-boulder .icon-back,
+.ios .icon-back.color-boulder,
+.ios a.link.color-boulder .icon-back,
+.ios .color-theme-boulder .icon-prev,
+.ios .icon-prev.color-boulder,
+.ios a.link.color-boulder .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%23777777'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-emperor .icon-forward,
+.ios .icon-forward.color-emperor,
+.ios a.link.color-emperor .icon-forward,
+.ios .color-theme-emperor .icon-next,
+.ios .icon-next.color-emperor,
+.ios a.link.color-emperor .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%23555555'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-emperor .icon-back,
+.ios .icon-back.color-emperor,
+.ios a.link.color-emperor .icon-back,
+.ios .color-theme-emperor .icon-prev,
+.ios .icon-prev.color-emperor,
+.ios a.link.color-emperor .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%23555555'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-eastbay .icon-forward,
+.ios .icon-forward.color-eastbay,
+.ios a.link.color-eastbay .icon-forward,
+.ios .color-theme-eastbay .icon-next,
+.ios .icon-next.color-eastbay,
+.ios a.link.color-eastbay .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%233B5E7C'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-eastbay .icon-back,
+.ios .icon-back.color-eastbay,
+.ios a.link.color-eastbay .icon-back,
+.ios .color-theme-eastbay .icon-prev,
+.ios .icon-prev.color-eastbay,
+.ios a.link.color-eastbay .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%233B5E7C'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-lighteastbay .icon-forward,
+.ios .icon-forward.color-lighteastbay,
+.ios a.link.color-lighteastbay .icon-forward,
+.ios .color-theme-lighteastbay .icon-next,
+.ios .icon-next.color-lighteastbay,
+.ios a.link.color-lighteastbay .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%234193ca'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-lighteastbay .icon-back,
+.ios .icon-back.color-lighteastbay,
+.ios a.link.color-lighteastbay .icon-back,
+.ios .color-theme-lighteastbay .icon-prev,
+.ios .icon-prev.color-lighteastbay,
+.ios a.link.color-lighteastbay .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%234193ca'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-lochmara .icon-forward,
+.ios .icon-forward.color-lochmara,
+.ios a.link.color-lochmara .icon-forward,
+.ios .color-theme-lochmara .icon-next,
+.ios .icon-next.color-lochmara,
+.ios a.link.color-lochmara .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M.18261596%209.4221638c.0352203-.05148305.07573462-.10050698.1215468-.14631917L9.1425872.4374202c.5830904-.58309038%201.52656832-.5849888%202.11643872.00488163.5857864.58578644.591222%201.53009836.0048816%202.11643873L3.82594417%209.9967039l7.43188553%207.4318855c.5830904.5830904.5849888%201.5265683-.0048817%202.1164387-.5857864.5857865-1.5300983.591222-2.11643868.0048816L.2980849%2010.7114853c-.3526746-.3526746-.3939974-.89699-.11546894-1.2893215z'%20fill%3D'%233383cb'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
+.ios .color-theme-lochmara .icon-back,
+.ios .icon-back.color-lochmara,
+.ios a.link.color-lochmara .icon-back,
+.ios .color-theme-lochmara .icon-prev,
+.ios .icon-prev.color-lochmara,
+.ios a.link.color-lochmara .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'12'%20height%3D'20'%20viewBox%3D'0%200%2012%2020'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cpath%20d%3D'M11.51840604%2010.5648622c-.0352203.05148305-.07573462.10050698-.1215468.14631917L2.5584348%2019.5496058c-.5830904.58309038-1.52656832.5849888-2.11643872-.00488163-.5857864-.58578644-.591222-1.53009836-.0048816-2.11643873L7.87507783%209.9903221.4431923%202.5584366C-.1398981%201.9753462-.1417965%201.0318683.448074.4419979c.5857864-.5857865%201.5300983-.591222%202.11643868-.0048816l8.83842442%208.8384244c.3526746.3526746.3939974.89699.11546894%201.2893215z'%20fill%3D'%233383cb'%20fill-rule%3D'evenodd'%2F%3E%3C%2Fsvg%3E");
+}
 .ios .icon.color-red {
   color: #ff3b30;
 }
@@ -7100,7 +8324,7 @@ i.icon {
   color: #4cd964;
 }
 .ios .icon.color-blue {
-  color: #007aff;
+  color: #387EF5;
 }
 .ios .icon.color-pink {
   color: #ff2d55;
@@ -7119,6 +8343,24 @@ i.icon {
 }
 .ios .icon.color-black {
   color: #000000;
+}
+.ios .icon.color-lightblue {
+  color: #45C3F9;
+}
+.ios .icon.color-boulder {
+  color: #777777;
+}
+.ios .icon.color-emperor {
+  color: #555555;
+}
+.ios .icon.color-eastbay {
+  color: #3B5E7C;
+}
+.ios .icon.color-lighteastbay {
+  color: #4193ca;
+}
+.ios .icon.color-lochmara {
+  color: #3383cb;
 }
 .md .icon-back {
   width: 24px;
@@ -7297,6 +8539,102 @@ i.icon {
 .md a.link .color-black .icon-next {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23000000'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
 }
+.md .icon-forward.color-lightblue,
+.md a.link .color-lightblue .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%2345C3F9'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-lightblue,
+.md a.link .color-lightblue .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%2345C3F9'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-lightblue,
+.md a.link .color-lightblue .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%2345C3F9'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-lightblue,
+.md a.link .color-lightblue .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%2345C3F9'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-forward.color-boulder,
+.md a.link .color-boulder .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-boulder,
+.md a.link .color-boulder .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-boulder,
+.md a.link .color-boulder .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23777777'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-boulder,
+.md a.link .color-boulder .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23777777'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-forward.color-emperor,
+.md a.link .color-emperor .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%23555555'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-emperor,
+.md a.link .color-emperor .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%23555555'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-emperor,
+.md a.link .color-emperor .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23555555'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-emperor,
+.md a.link .color-emperor .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%23555555'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-forward.color-eastbay,
+.md a.link .color-eastbay .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%233B5E7C'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-eastbay,
+.md a.link .color-eastbay .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%233B5E7C'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-eastbay,
+.md a.link .color-eastbay .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%233B5E7C'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-eastbay,
+.md a.link .color-eastbay .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%233B5E7C'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-forward.color-lighteastbay,
+.md a.link .color-lighteastbay .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%234193ca'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-lighteastbay,
+.md a.link .color-lighteastbay .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%234193ca'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-lighteastbay,
+.md a.link .color-lighteastbay .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%234193ca'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-lighteastbay,
+.md a.link .color-lighteastbay .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%234193ca'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-forward.color-lochmara,
+.md a.link .color-lochmara .icon-forward {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M20%2011H7.83l5.59-5.59L12%204l-8%208%208%208%201.41-1.41L7.83%2013H20v-2z'%20fill%3D'%233383cb'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-back.color-lochmara,
+.md a.link .color-lochmara .icon-back {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M12%204l-1.41%201.41L16.17%2011H4v2h12.17l-5.58%205.59L12%2020l8-8z'%20fill%3D'%233383cb'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-prev.color-lochmara,
+.md a.link .color-lochmara .icon-prev {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%233383cb'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M10%206L8.59%207.41%2013.17%2012l-4.58%204.59L10%2018l6-6z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
+.md .icon-next.color-lochmara,
+.md a.link .color-lochmara .icon-next {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20fill%3D'%233383cb'%20width%3D'24'%20height%3D'24'%20viewBox%3D'0%200%2024%2024'%3E%3Cpath%20d%3D'M15.41%207.41L14%206l-6%206%206%206%201.41-1.41L10.83%2012z'%2F%3E%3Cpath%20d%3D'M0%200h24v24H0z'%20fill%3D'none'%2F%3E%3C%2Fsvg%3E");
+}
 .md .icon.color-red {
   color: #f44336;
 }
@@ -7323,6 +8661,24 @@ i.icon {
 }
 .md .icon.color-black {
   color: #000000;
+}
+.md .icon.color-lightblue {
+  color: #45C3F9;
+}
+.md .icon.color-boulder {
+  color: #777777;
+}
+.md .icon.color-emperor {
+  color: #555555;
+}
+.md .icon.color-eastbay {
+  color: #3B5E7C;
+}
+.md .icon.color-lighteastbay {
+  color: #4193ca;
+}
+.md .icon.color-lochmara {
+  color: #3383cb;
 }
 .custom-modal-backdrop {
   position: absolute;
