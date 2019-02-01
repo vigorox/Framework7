@@ -5,6 +5,7 @@
  * $ npm run build-core:prod -- --config path/to/config.js --output path/to/output/folder
  */
 
+// Just execute:
 // npm run build-core:prod -- --config ./scripts/build-custom.js
 
 const config = {
